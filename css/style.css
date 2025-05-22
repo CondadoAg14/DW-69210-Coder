@@ -1,0 +1,184 @@
+body{
+    font-style: oblique;
+}
+
+header{
+    background-color:  #5e5d5d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img{
+    width: 150px;
+}
+
+nav{
+    width: 25%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+
+nav a{
+    color: black;
+    text-decoration: double;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: #292828;
+}
+
+main p {
+    text-align: center;
+}
+
+main 
+
+body main section h4 p{
+    text-align: center;
+    text-decoration:underline;
+}
+
+body main section h5 img{
+    width: 400px;
+}
+
+body main section h3 img {
+    width: 250px;
+}
+
+body main section h3 p {
+    text-align: center;
+}
+
+body main h9 p {
+    text-align: left;
+    text-shadow: #292828;
+}
+
+
+footer {
+    background-color: #5e5d5d;
+}
+
+footer p {
+    text-align: center;
+    height: 20px;
+}
+
+footer section h3 p {
+    text-align: center;
+}
+
+footer section h1 img {
+    width: 100px;
+}
+
+footer section h2 img {
+    width: 125px;
+}
+
+.presentacion{
+    text-align: center;
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.banner{
+    background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png) ;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+}
+
+.preguntanos {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.inicio-nuevo{
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+
+    display: grid;
+    grid-template-areas: 
+    "imagen imagen1"
+    "texto1 texto";
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    gap: 5px;
+}
+
+.grid-texto-1{
+    grid-area: texto;
+}
+.grid-imagen-1{
+    grid-area: imagen;
+}
+.grid-texto-2{
+    grid-area: texto1;
+}
+.grid-imagen-2{
+    grid-area: imagen1;
+}
+
+.informacion {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+    
+    display: grid;
+    grid-template-areas: 
+    "imagen1 texto1"
+    "imagen2 texto2"
+    "imagen3 texto3";
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+
+    gap: 1px;
+}
+
+.texto-1{
+    grid-area: texto1;
+}
+.texto-2{
+    grid-area: texto2;
+}
+
+.texto-3{
+    grid-area: texto3;
+}
+
+.imagen-1{
+    grid-area: imagen1;
+}
+
+.imagen-2{
+    grid-area: imagen2;
+}
+
+.imagen-3{
+    grid-area: imagen3;
+}
+
+
+
