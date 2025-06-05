@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.banner {
+  background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+}
+
+.presentacion {
+  text-align: center;
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
+
+.inicio-nuevo {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "imagen imagen1" "texto1 texto";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 5px;
+}
+.inicio-nuevo .grid-texto-1 {
+  grid-area: texto;
+}
+.inicio-nuevo .grid-imagen-1 {
+  grid-area: imagen;
+}
+.inicio-nuevo .grid-texto-2 {
+  grid-area: texto1;
+}
+.inicio-nuevo .grid-imagen-2 {
+  grid-area: imagen1;
+}
+
+.informacion {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "imag1 text1" "imag2 text2";
+  grid-template-columns: 50% 40%;
+  grid-template-rows: 50% 50%;
+  gap: 150px;
+}
+.informacion .grid-imagen-4 {
+  grid-area: imag1;
+}
+.informacion .grid-imagen-5 {
+  grid-area: imag2;
+}
+.informacion .grid-texto-4 {
+  grid-area: text1;
+}
+.informacion .grid-texto-5 {
+  grid-area: text2;
+}
+
+.robar {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+}
+
+.romper {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+}
+
+.local {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

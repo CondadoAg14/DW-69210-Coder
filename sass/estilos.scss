@@ -1,0 +1,25 @@
+@use "partials/index";
+@use "partials/adopciones";
+@use "partials/contacto";
+@use "partials/nosotros";
+@use "partials/rescates";
+
+
+.romper {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+}
+
+.local {
+    background-size: cover;
+    background-position: center;
+    color:white ;
+    text-align: center;
+}
+
+.preguntanos {
+    text-align: center;
+    text-decoration: underline;
+}
