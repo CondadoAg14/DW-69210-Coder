@@ -1,0 +1,39 @@
+header {
+    background-color:  $secundary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        width: 150px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70%;
+    }
+    nav{
+        width: 25%;
+    }
+}
+
+footer {
+    background-color: $secundary-color;
+    p {
+        text-align: center;
+        height: 20px;
+    }
+    section {
+        h3 p {
+            text-align: center;
+        }
+
+        h1 img {
+            width: 100px;
+        }
+
+        h2 img {
+            width: 125px;
+        }
+    }
+}
