@@ -65,6 +65,40 @@ body main h9 p {
     text-shadow: #292828;
 }
 
+body main section h13 img {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+    width: 20%;
+    
+}
+
+body main section h14 img {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+    width: 35%;
+    
+}
+
+body main section h14 img {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+    width: 35%;
+    
+}
+
+body main section img {
+    width: 35%;
+}
+
+body main section h11 {
+    color: white;
+}
 
 footer {
     background-color: #5e5d5d;
@@ -144,41 +178,65 @@ footer section h2 img {
     background-position: center;
     color:black ;
     text-align: center;
-    
+
     display: grid;
     grid-template-areas: 
-    "imagen1 texto1"
-    "imagen2 texto2"
-    "imagen3 texto3";
+    "imag1 text1"
+    "imag2 text2";
 
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 50% 50%;
 
-    gap: 1px;
+    gap: 150px;
 }
 
-.texto-1{
-    grid-area: texto1;
-}
-.texto-2{
-    grid-area: texto2;
+.grid-imagen-4 {
+    grid-area: imag1;
 }
 
-.texto-3{
-    grid-area: texto3;
+.grid-imagen-5 {
+    grid-area: imag2;
 }
 
-.imagen-1{
-    grid-area: imagen1;
+.grid-texto-4 {
+    grid-area: text1;
 }
 
-.imagen-2{
-    grid-area: imagen2;
+.grid-texto-5 {
+    grid-area: text2;
 }
 
-.imagen-3{
-    grid-area: imagen3;
+.lol {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
 }
 
+.robar {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+}
 
+.robar {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+}
 
+.romper {
+    background-size: cover;
+    background-position: center;
+    color:black ;
+    text-align: center;
+}
+
+.local {
+    background-size: cover;
+    background-position: center;
+    color:white ;
+    text-align: center;
+}
