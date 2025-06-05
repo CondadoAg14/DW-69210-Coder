@@ -38,6 +38,20 @@
   grid-area: imagen1;
 }
 
+.robar {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+}
+
+.local {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
 .informacion {
   background-size: cover;
   background-position: center;
@@ -69,6 +83,13 @@
   text-align: center;
 }
 
+.lol {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+}
+
 .romper {
   background-size: cover;
   background-position: center;
@@ -83,4 +104,93 @@
   text-align: center;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.preguntanos {
+  text-align: center;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #5e5d5d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header img {
+  width: 150px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+}
+header nav {
+  width: 25%;
+}
+
+body {
+  font-style: oblique;
+  background-color: #292828;
+}
+
+main p {
+  text-align: center;
+}
+main h9 p {
+  text-align: left;
+  text-shadow: #292828;
+}
+main section h4 p {
+  text-align: center;
+  text-decoration: underline;
+}
+main section h5 img {
+  width: 400px;
+}
+main section h3 img {
+  width: 250px;
+}
+main section h3 p {
+  text-align: center;
+}
+main section h14 img {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  width: 35%;
+}
+main section h14 img {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  width: 35%;
+}
+main section img {
+  width: 35%;
+}
+main section h11 {
+  color: white;
+}
+
+footer {
+  background-color: #5e5d5d;
+}
+footer p {
+  text-align: center;
+  height: 20px;
+}
+footer section h3 p {
+  text-align: center;
+}
+footer section h1 img {
+  width: 100px;
+}
+footer section h2 img {
+  width: 125px;
+}
+
+p {
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

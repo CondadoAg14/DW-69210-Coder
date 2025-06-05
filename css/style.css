@@ -41,8 +41,6 @@ main p {
     text-align: center;
 }
 
-main 
-
 body main section h4 p{
     text-align: center;
     text-decoration:underline;
@@ -100,26 +98,7 @@ body main section h11 {
     color: white;
 }
 
-footer {
-    background-color: #5e5d5d;
-}
 
-footer p {
-    text-align: center;
-    height: 20px;
-}
-
-footer section h3 p {
-    text-align: center;
-}
-
-footer section h1 img {
-    width: 100px;
-}
-
-footer section h2 img {
-    width: 125px;
-}
 
 .presentacion{
     text-align: center;

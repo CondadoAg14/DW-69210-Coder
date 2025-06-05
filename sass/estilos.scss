@@ -4,7 +4,6 @@
 @use "partials/nosotros";
 @use "partials/rescates";
 
-
 .romper {
     background-size: cover;
     background-position: center;
@@ -22,4 +21,107 @@
 .preguntanos {
     text-align: center;
     text-decoration: underline;
+}
+
+header {
+    background-color:  #5e5d5d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        width: 150px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70%;
+    }
+    nav{
+        width: 25%;
+    }
+}
+
+body{
+    font-style: oblique;
+    background-color: #292828;
+}
+
+main {
+    p {
+        text-align: center;
+    }
+
+    h9 p {
+        text-align: left;
+        text-shadow: #292828;
+    }
+
+    section {
+        h4 p{
+            text-align: center;
+            text-decoration:underline;
+        }
+
+        h5 img{
+            width: 400px;
+        }
+
+        h3 img {
+            width: 250px;
+        }
+
+        h3 p {
+            text-align: center;
+        }
+
+        h14 img {
+            background-size: cover;
+            background-position: center;
+            color:black ;
+            text-align: center;
+            width: 35%;
+        }
+
+        h14 img {
+            background-size: cover;
+            background-position: center;
+            color:black ;
+            text-align: center;
+            width: 35%;
+        }
+
+        img {
+            width: 35%;
+        }
+
+        h11 {
+            color: white;
+        }
+    }
+}
+
+footer {
+    background-color: #5e5d5d;
+    p {
+        text-align: center;
+        height: 20px;
+    }
+    section {
+        h3 p {
+            text-align: center;
+        }
+
+        h1 img {
+            width: 100px;
+        }
+
+        h2 img {
+            width: 125px;
+        }
+    }
+}
+
+p {
+    color: white;
 }
