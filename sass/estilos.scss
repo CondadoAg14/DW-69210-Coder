@@ -10,17 +10,19 @@ p {
     color: white;
 }
 
+@mixin estilos($background-size, $background-position, $text-align) {
+    background-size: $background-size;
+    background-position: $background-position;
+    text-align: $text-align;
+}
+
 .romper {
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+    @include estilos (cover, center, center);
     color: $black-color ;
 }
 
 .local {
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+    @include estilos (cover, center, center);
     color: $primary-color ;
 }
 
@@ -65,17 +67,13 @@ main {
         }
 
         h14 img {
-            background-size: cover;
-            background-position: center;
-            text-align: center;
+            @include estilos (cover, center, center);
             color: $black-color ;
             width: 35%;
         }
 
         h14 img {
-            background-size: cover;
-            background-position: center;
-            text-align: center;
+            @include estilos (cover, center, center);
             color:$black-color ;
             width: 35%;
         }
@@ -93,10 +91,8 @@ main {
 .banner{
     background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png) ;
     height: 400px;
-    background-size: cover;
-    background-position: center;
+    @include estilos (cover, center, center);
     color: #292828;
-    text-align: center;
 }
 
 .presentacion{
@@ -106,10 +102,8 @@ main {
 }
 
 .inicio-nuevo{
-    background-size: cover;
-    background-position: center;
+    @include estilos (cover, center, center);
     color: #292828;
-    text-align: center;
 
     display: grid;
     grid-template-areas: 
