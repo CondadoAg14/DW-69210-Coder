@@ -1,43 +1,4 @@
 @charset "UTF-8";
-.banner {
-  background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png);
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-}
-
-.presentacion {
-  text-align: center;
-  color: darkgoldenrod;
-  text-decoration: underline;
-}
-
-.inicio-nuevo {
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-  display: grid;
-  grid-template-areas: "imagen imagen1" "texto1 texto";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  gap: 5px;
-}
-.inicio-nuevo .grid-texto-1 {
-  grid-area: texto;
-}
-.inicio-nuevo .grid-imagen-1 {
-  grid-area: imagen;
-}
-.inicio-nuevo .grid-texto-2 {
-  grid-area: texto1;
-}
-.inicio-nuevo .grid-imagen-2 {
-  grid-area: imagen1;
-}
-
 .robar {
   background-size: cover;
   background-position: center;
@@ -90,25 +51,6 @@
   text-align: center;
 }
 
-.romper {
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-}
-
-.local {
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-}
-
-.preguntanos {
-  text-align: center;
-  text-decoration: underline;
-}
-
 header {
   background-color: #5e5d5d;
   display: flex;
@@ -126,52 +68,6 @@ header ul {
 }
 header nav {
   width: 25%;
-}
-
-body {
-  font-style: oblique;
-  background-color: #292828;
-}
-
-main p {
-  text-align: center;
-}
-main h9 p {
-  text-align: left;
-  text-shadow: #292828;
-}
-main section h4 p {
-  text-align: center;
-  text-decoration: underline;
-}
-main section h5 img {
-  width: 400px;
-}
-main section h3 img {
-  width: 250px;
-}
-main section h3 p {
-  text-align: center;
-}
-main section h14 img {
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-  width: 35%;
-}
-main section h14 img {
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-  width: 35%;
-}
-main section img {
-  width: 35%;
-}
-main section h11 {
-  color: white;
 }
 
 footer {
@@ -193,4 +89,111 @@ footer section h2 img {
 
 p {
   color: white;
+}
+
+.romper {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: black;
+}
+
+.local {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #292828;
+}
+
+.preguntanos {
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  font-style: oblique;
+  background-color: #292828;
+}
+
+main {
+  background-color: #292828;
+}
+main p {
+  text-align: center;
+}
+main h9 p {
+  text-align: left;
+  text-shadow: #292828;
+}
+main section h4 p {
+  text-align: center;
+  text-decoration: underline;
+}
+main section h5 img {
+  width: 150px;
+}
+main section h3 img {
+  width: 150px;
+}
+main section h3 p {
+  text-align: center;
+}
+main section h14 img {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: black;
+  width: 35%;
+}
+main section h14 img {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: black;
+  width: 35%;
+}
+main section img {
+  width: 35%;
+}
+main section h11 {
+  color: #292828;
+}
+
+.banner {
+  background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: #292828;
+  text-align: center;
+}
+
+.presentacion {
+  text-align: center;
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
+
+.inicio-nuevo {
+  background-size: cover;
+  background-position: center;
+  color: #292828;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "imagen imagen1" "texto1 texto";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 5px;
+}
+.inicio-nuevo .grid-texto-1 {
+  grid-area: texto;
+}
+.inicio-nuevo .grid-imagen-1 {
+  grid-area: imagen;
+}
+.inicio-nuevo .grid-texto-2 {
+  grid-area: texto1;
+}
+.inicio-nuevo .grid-imagen-2 {
+  grid-area: imagen1;
 }/*# sourceMappingURL=estilos.css.map */

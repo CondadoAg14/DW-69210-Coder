@@ -3,23 +3,25 @@
 @use "partials/contacto";
 @use "partials/nosotros";
 @use "partials/rescates";
-@use "partials/variables";
+@use "partials/headeryfooter";
+@import "partials/variables";
 
-@mixin styles($size, $position, $text-align) {
+p {
+    color: white;
+}
+
+.romper {
     background-size: cover;
     background-position: center;
     text-align: center;
-}
-
-
-.romper {
-    @include styles(cover, center, center);
-    color:$black-color ;
+    color: $black-color ;
 }
 
 .local {
-    @include styles(cover, center, center);
-    color:$white-color ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: $primary-color ;
 }
 
 .preguntanos {
@@ -34,6 +36,7 @@ body{
 }
 
 main {
+    background-color: $primary-color;
     p {
         text-align: center;
     }
@@ -50,11 +53,11 @@ main {
         }
 
         h5 img{
-            width: 400px;
+            width: 150px;
         }
 
         h3 img {
-            width: 250px;
+            width: 150px;
         }
 
         h3 p {
@@ -62,13 +65,17 @@ main {
         }
 
         h14 img {
-            @include styles(cover, center, center);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
             color: $black-color ;
             width: 35%;
         }
 
         h14 img {
-            @include styles(cover, center, center);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
             color:$black-color ;
             width: 35%;
         }
@@ -78,11 +85,52 @@ main {
         }
 
         h11 {
-            color: $white-color;
+            color: $primary-color;
         }
     }
 }
 
-p {
-    color: $white-color;
+.banner{
+    background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png) ;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: #292828;
+    text-align: center;
+}
+
+.presentacion{
+    text-align: center;
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.inicio-nuevo{
+    background-size: cover;
+    background-position: center;
+    color: #292828;
+    text-align: center;
+
+    display: grid;
+    grid-template-areas: 
+    "imagen imagen1"
+    "texto1 texto";
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    gap: 5px;
+
+    .grid-texto-1{
+        grid-area: texto;
+    }  
+    .grid-imagen-1{
+        grid-area: imagen;
+    }
+    .grid-texto-2{
+        grid-area: texto1;
+    }
+    .grid-imagen-2{
+        grid-area: imagen1;
+    }
 }
