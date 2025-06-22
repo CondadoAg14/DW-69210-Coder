@@ -1,9 +1,10 @@
 @charset "UTF-8";
 .robar {
-  background-size: cover;
-  background-position: center;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  gap: 1rem;
   color: black;
-  text-align: center;
 }
 
 .local {
@@ -14,48 +15,19 @@
 }
 
 img {
-  width: 300px;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  display: block;
 }
 
-.informacion {
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-  place-items: center;
-  gap: 1rem;
-  display: grid;
-  grid-template-areas: "imag1 text1" "imag2 text2";
-  grid-template-columns: 20% 75%;
-  grid-template-rows: 20% 75%;
-}
-.informacion .grid-imagen-4 {
-  grid-area: imag1;
-}
-.informacion .grid-imagen-5 {
-  grid-area: imag2;
-}
-.informacion .grid-texto-4 {
-  grid-area: text1;
-}
-.informacion .grid-texto-5 {
-  grid-area: text2;
-}
-
-.robar {
+.container .lol {
   background-size: cover;
   background-position: center;
   color: black;
   text-align: center;
 }
-
-.lol {
-  background-size: cover;
-  background-position: center;
-  color: black;
-  text-align: center;
-}
-.lol img {
+.container .lol img {
   width: 300px;
 }
 
@@ -91,6 +63,10 @@ p {
   color: white;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .romper {
   background-size: cover;
   background-position: center;
@@ -119,27 +95,7 @@ main {
   background-color: #292828;
 }
 main p {
-  text-align: center;
-}
-main img {
-  width: 100%;
-  max-width: 300px;
-  background-color: #292828;
-  height: auto;
-}
-main section p {
-  text-align: center;
-}
-main div img {
-  width: 100%;
-  max-width: 100px;
-  height: auto;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  text-align: left;
 }
 
 .banner {
@@ -163,6 +119,8 @@ img {
   text-align: center;
   color: #292828;
   place-items: center;
+  justify-items: center;
+  align-items: center;
   display: grid;
   grid-template-areas: "texto1 texto" "imagen imagen1";
   grid-template-columns: 1fr 1fr;

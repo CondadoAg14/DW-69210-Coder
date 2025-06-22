@@ -5,6 +5,8 @@
 @use "partials/headeryfooter";
 @import "partials/variables";
 
+
+
 p {
     color: white;
 }
@@ -43,24 +45,10 @@ body{
 main {
     background-color: $primary-color;
     p {
-        text-align: center;
-    }
-
-
-    section {
-        p{
-            text-align: center;
-        }
-
+        text-align: left;
     }
 }
 
-img {
-    place-items: center;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 .banner{
     background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png) ;
@@ -79,7 +67,9 @@ img {
     @include estilos (cover, center, center);
     color: #292828;
     place-items: center;
-
+    justify-items: center; 
+    align-items: center;
+    
     display: grid;
     grid-template-areas: 
     "texto1 texto"

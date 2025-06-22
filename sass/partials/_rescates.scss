@@ -1,16 +1,11 @@
-.robar {
-    background-size: cover;
-    background-position: center;
-    color:black ;
-    text-align: center;
-}
-
-.lol {
-    img {
-    width: 300px;
+.container {
+    .lol {
+        img {
+            width: 300px;
+        }
+        background-size: cover;
+        background-position: center;
+        color:black ;
+        text-align: center;
     }
-    background-size: cover;
-    background-position: center;
-    color:black ;
-    text-align: center;
 }
