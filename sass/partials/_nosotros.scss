@@ -1,6 +1,12 @@
 img {
     width: 100%;
     height: auto;
-    max-width: 200px;
+    max-width: 150px;
     display: block;
+}
+
+.informacion p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0 1rem;
 }
