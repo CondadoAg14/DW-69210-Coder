@@ -17,8 +17,18 @@
 img {
   width: 100%;
   height: auto;
-  max-width: 200px;
+  max-width: 150px;
   display: block;
+}
+
+.informacion p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+img {
+  max-width: 150px;
 }
 
 .container .lol {
@@ -26,9 +36,6 @@ img {
   background-position: center;
   color: black;
   text-align: center;
-}
-.container .lol img {
-  width: 300px;
 }
 
 header {
@@ -96,6 +103,9 @@ main {
 }
 main p {
   text-align: left;
+}
+main img {
+  max-width: 300px;
 }
 
 .banner {
