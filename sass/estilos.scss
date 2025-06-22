@@ -15,6 +15,10 @@ p {
     text-align: $text-align;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .romper {
     @include estilos (cover, center, center);
     color: $black-color ;
@@ -42,12 +46,6 @@ main {
         text-align: center;
     }
 
-    img {
-        width: 100%;
-        max-width: 300px;
-        background-color: #292828;
-        height: auto;
-    }  
 
     section {
         p{
@@ -55,17 +53,10 @@ main {
         }
 
     }
-
-    div {
-        img {
-            width: 100%;
-            max-width: 100px;
-            height: auto;
-        }
-    }
 }
 
 img {
+    place-items: center;
     max-width: 100%;
     height: auto;
     display: block;
