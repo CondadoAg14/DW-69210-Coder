@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+img {
+  width: 300px;
+}
+
 .informacion {
   background-size: cover;
   background-position: center;
@@ -24,9 +28,6 @@
   grid-template-areas: "imag1 text1" "imag2 text2";
   grid-template-columns: 20% 75%;
   grid-template-rows: 20% 75%;
-}
-.informacion img {
-  width: 350px;
 }
 .informacion .grid-imagen-4 {
   grid-area: imag1;
@@ -53,6 +54,9 @@
   background-position: center;
   color: black;
   text-align: center;
+}
+.lol img {
+  width: 300px;
 }
 
 header {
