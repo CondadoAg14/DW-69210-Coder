@@ -1,4 +1,3 @@
-@use "partials/index";
 @use "partials/adopciones";
 @use "partials/contacto";
 @use "partials/nosotros";
@@ -43,51 +42,24 @@ main {
         text-align: center;
     }
 
-    h9 p {
-        text-align: left;
-        text-shadow: $primary-color;
-    }
+    img {
+        width: 300px;
+        background-color: #292828;
+    }  
 
     section {
-        h4 p{
-            text-align: center;
-            text-decoration:underline;
-        }
-
-        h5 img{
-            width: 150px;
-        }
-
-        h3 img {
-            width: 150px;
-        }
-
-        h3 p {
+        p{
             text-align: center;
         }
 
-        h14 img {
-            @include estilos (cover, center, center);
-            color: $black-color ;
-            width: 35%;
-        }
+    }
 
-        h14 img {
-            @include estilos (cover, center, center);
-            color:$black-color ;
-            width: 35%;
-        }
-
+    div {
         img {
-            width: 35%;
-        }
-
-        h11 {
-            color: $primary-color;
+            width: 100px;
         }
     }
 }
-
 .banner{
     background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png) ;
     height: 400px;
@@ -104,16 +76,18 @@ main {
 .inicio-nuevo{
     @include estilos (cover, center, center);
     color: #292828;
+    place-items: center;
+    img {
+        width: 300px;
+    }
 
     display: grid;
     grid-template-areas: 
-    "imagen imagen1"
-    "texto1 texto";
+    "texto1 texto"
+    "imagen imagen1";
 
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-
-    gap: 5px;
+    grid-template-rows: 1% 1%;
 
     .grid-texto-1{
         grid-area: texto;
@@ -127,4 +101,6 @@ main {
     .grid-imagen-2{
         grid-area: imagen1;
     }
+
+    gap: 115px;
 }

@@ -18,11 +18,15 @@
   background-position: center;
   color: black;
   text-align: center;
+  place-items: center;
+  gap: 1rem;
   display: grid;
   grid-template-areas: "imag1 text1" "imag2 text2";
-  grid-template-columns: 50% 40%;
-  grid-template-rows: 50% 50%;
-  gap: 150px;
+  grid-template-columns: 20% 75%;
+  grid-template-rows: 20% 75%;
+}
+.informacion img {
+  width: 350px;
 }
 .informacion .grid-imagen-4 {
   grid-area: imag1;
@@ -58,7 +62,7 @@ header {
   justify-content: space-between;
 }
 header img {
-  width: 150px;
+  width: 200px;
 }
 header ul {
   display: flex;
@@ -76,15 +80,6 @@ footer {
 footer p {
   text-align: center;
   height: 20px;
-}
-footer section h3 p {
-  text-align: center;
-}
-footer section h1 img {
-  width: 100px;
-}
-footer section h2 img {
-  width: 125px;
 }
 
 p {
@@ -121,42 +116,15 @@ main {
 main p {
   text-align: center;
 }
-main h9 p {
-  text-align: left;
-  text-shadow: #292828;
+main img {
+  width: 300px;
+  background-color: #292828;
 }
-main section h4 p {
-  text-align: center;
-  text-decoration: underline;
-}
-main section h5 img {
-  width: 150px;
-}
-main section h3 img {
-  width: 150px;
-}
-main section h3 p {
+main section p {
   text-align: center;
 }
-main section h14 img {
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: black;
-  width: 35%;
-}
-main section h14 img {
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: black;
-  width: 35%;
-}
-main section img {
-  width: 35%;
-}
-main section h11 {
-  color: #292828;
+main div img {
+  width: 100px;
 }
 
 .banner {
@@ -164,8 +132,8 @@ main section h11 {
   height: 400px;
   background-size: cover;
   background-position: center;
-  color: #292828;
   text-align: center;
+  color: #292828;
 }
 
 .presentacion {
@@ -177,13 +145,17 @@ main section h11 {
 .inicio-nuevo {
   background-size: cover;
   background-position: center;
-  color: #292828;
   text-align: center;
+  color: #292828;
+  place-items: center;
   display: grid;
-  grid-template-areas: "imagen imagen1" "texto1 texto";
+  grid-template-areas: "texto1 texto" "imagen imagen1";
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  gap: 5px;
+  grid-template-rows: 1% 1%;
+  gap: 115px;
+}
+.inicio-nuevo img {
+  width: 300px;
 }
 .inicio-nuevo .grid-texto-1 {
   grid-area: texto;

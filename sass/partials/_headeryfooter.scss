@@ -4,7 +4,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     img{
-        width: 150px;
+        width: 200px;
     }
     ul {
         display: flex;
@@ -22,18 +22,5 @@ footer {
     p {
         text-align: center;
         height: 20px;
-    }
-    section {
-        h3 p {
-            text-align: center;
-        }
-
-        h1 img {
-            width: 100px;
-        }
-
-        h2 img {
-            width: 125px;
-        }
     }
 }

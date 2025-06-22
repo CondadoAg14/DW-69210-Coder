@@ -1,18 +1,24 @@
 .informacion {
+    img {
+        width: 350px;
+    }
     background-size: cover;
     background-position: center;
     color:black ;
     text-align: center;
+    place-items: center;
+
+    gap: 1rem;
 
     display: grid;
     grid-template-areas: 
     "imag1 text1"
     "imag2 text2";
 
-    grid-template-columns: 50% 40%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 20% 75%;
+    grid-template-rows: 20% 75%;
 
-    gap: 150px;
+
     .grid-imagen-4 {
         grid-area: imag1;
     }
