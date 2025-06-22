@@ -43,8 +43,10 @@ main {
     }
 
     img {
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
         background-color: #292828;
+        height: auto;
     }  
 
     section {
@@ -56,10 +58,19 @@ main {
 
     div {
         img {
-            width: 100px;
+            width: 100%;
+            max-width: 100px;
+            height: auto;
         }
     }
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .banner{
     background-image: url(../imagenes/fila-de-perros-diferente-tamaño-y-raza-sobre-gradiente-azul-amarillo-medio-social-horizontal-o-banner-web-con-espacio-copia-para-275050442.png) ;
     height: 400px;
@@ -77,17 +88,20 @@ main {
     @include estilos (cover, center, center);
     color: #292828;
     place-items: center;
-    img {
-        width: 300px;
-    }
 
     display: grid;
     grid-template-areas: 
     "texto1 texto"
     "imagen imagen1";
 
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1% 1%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    }
 
     .grid-texto-1{
         grid-area: texto;
